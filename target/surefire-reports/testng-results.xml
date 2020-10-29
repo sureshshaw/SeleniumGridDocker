@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34450" started-at="2020-10-29T17:20:40 IST" finished-at="2020-10-29T17:21:15 IST">
+    <groups>
+    </groups>
+    <test name="chromeTest" duration-ms="21471" started-at="2020-10-29T17:20:40 IST" finished-at="2020-10-29T17:21:02 IST">
+      <class name="test.GridTest">
+        <test-method status="PASS" signature="test1(java.lang.String)[pri:0, instance:test.GridTest@a67c67e]" name="test1" duration-ms="21438" started-at="2020-10-29T17:20:40 IST" finished-at="2020-10-29T17:21:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- test.GridTest -->
+    </test> <!-- chromeTest -->
+    <test name="firefoxTest" duration-ms="34450" started-at="2020-10-29T17:20:40 IST" finished-at="2020-10-29T17:21:15 IST">
+      <class name="test.GridTest">
+        <test-method status="PASS" signature="test1(java.lang.String)[pri:0, instance:test.GridTest@3b0143d3]" name="test1" duration-ms="34422" started-at="2020-10-29T17:20:40 IST" finished-at="2020-10-29T17:21:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- test.GridTest -->
+    </test> <!-- firefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
